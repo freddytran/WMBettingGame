@@ -1,0 +1,23 @@
+.jumbotron junbotron-fluid{
+    
+    text-align: center;
+    
+}
+body{
+background: url(feld.jpeg);
+    
+}
+
+.form-group{
+    text-align: center;
+}
+
+.well{
+    
+    text-align: center;
+}
+
+.form-group > input{
+    
+    width: 50px;
+}

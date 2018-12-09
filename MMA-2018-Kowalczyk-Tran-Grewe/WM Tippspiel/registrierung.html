@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+        
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+
+<title>WM-Tippspiel</title>
+        
+    </head>
+
+
+    <body>
+    
+        <div id="loginHeader">
+            <h1>WM-Tippspiel</h1>
+        </div>
+        <div id="mainLogin">
+        
+            <div id="registrierungBlock">
+            
+                <div id="loginBlockHeader">
+                    
+                    <h2>Registrieren</h2>
+                
+                </div>
+            
+            
+                <div id="loginInput">
+                
+                <form action="registrierung.php" method="post">
+                    <div class="loginElements">
+                        
+                        <div>
+                            <input type="text" name="Name" placeholder="Benutzername" required>
+                        </div>
+                    </div>
+                    
+                    <div class="loginElements">
+                       
+                        <div>
+                            <input type="password" name="Passwort" placeholder="Passwort" required>
+                        </div>
+                    </div>
+                   
+                    <div class="loginElements">
+                        
+                        <div>
+                            <input type="email" name="Email" placeholder="Email Adresse" required>
+                        </div>
+                    </div>
+                    
+                    <div class="loginElements">
+                        
+                        <div>
+                            <input type="number" name="Alter" min="14" max="120" step="1" placeholder="Alter" required>
+                        </div>
+                    </div>
+                    
+                      
+                    <div class="loginElements">
+                    
+                            <label>Team:  </label>
+                        
+                        
+                            <select name="Team">
+                                <option>keine Auswahl</option>
+                                <option value="Ägypten">Ägypten</option>
+                                <option value="Argentinien">Argentinien</option>
+                                <option value="Australien">Australien</option>
+                                <option value="Belgien">Belgien</option>
+                                <option value="Brasilien">Brasilien</option>
+                                <option value="Costa Rica">Costa Rica</option>
+                                <option value="Dänemark">Dänemark</option>
+                                <option value="Deutschland">Deutschland</option>
+                                <option value="England">England</option>
+                                <option value="Frankreich">Frankreich</option>
+                                <option value="Iran">Iran</option>
+                                <option value="Island">Island</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Kolumbien">Kolumbien</option>
+                                <option value="Kroatien">Kroatien</option>
+                                <option value="Marokko">Marokko</option>
+                                <option value="Mexiko">Mexiko</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Panama">Panama</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Polen">Polen</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Russland">Russland</option>
+                                <option value="Saudi-Arabien">Saudi-Arabien</option>
+                                <option value="Schweden">Schweden</option>
+                                <option value="Schweiz">Schweiz</option>
+                                <option value="Senegal">Senegal</option>
+                                <option value="Serbien">Serbien</option>
+                                <option value="Spanien">Spanien</option>
+                                <option value="Süd Korea">Süd Korea</option>
+                                <option value="Tunesien">Tunesien</option>
+                                <option value="Uruguay">Uruguay</option>
+                            
+                            </select>
+                        
+                    </div>
+                    
+                    
+                    <div>
+                        <button id="regButton" type="submit" name="registrierungSubmit">Registrieren</button>
+                         <a href="login.html">Zum Login</a>
+                        
+                        
+                    </div>
+                    </form>
+                    
+                    
+                
+                </div>
+            
+            
+            </div>
+        
+        
+        
+        </div>
+        
+    
+    
+    </body>
+          
+
+
+
+</html>

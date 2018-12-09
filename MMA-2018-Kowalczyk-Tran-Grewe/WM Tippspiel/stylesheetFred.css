@@ -1,0 +1,86 @@
+body{
+    
+    background-color: #00cc66;
+}
+
+.avatar{
+	
+	/*border: 1px solid black;*/
+	padding: 10px;
+}
+
+#myCanvas{
+    width: 300px;
+    height: 200px;
+    border:1px solid #E65858;
+    border-radius:4px;
+}
+input[type="number"]{
+    width: 216px;
+}
+
+.avatarDiv{
+    max-width: 250px;
+    max-height: 300px;
+    margin: 15px;
+}
+.container-fluid{
+    
+    text-align: center;
+    
+    
+}
+.modalDiv{
+    color: black;
+    font-family: Lobster, sans-serif;
+}
+
+.profilInfo{
+	
+	color: 	#000000;
+	/*border: 1px solid black;*/
+	padding: 10px;
+}
+
+h1{
+    font-family: Lobster;
+}
+
+.userDetail{
+	border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+h5{
+    font-family: Lobster, sans-serif;
+    color: 	#000;
+}
+
+.bearBtn{
+	margin-top: 5px;
+}
+
+
+#scoreCanvas{
+	border: 1px solid black;
+	width: 100%;
+	height: 200px;
+	background-color: #fffaf0;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+.btn-primary{
+    background-color: #008ae6;
+}
+
+.flag{
+    margin-bottom: 10px;
+}

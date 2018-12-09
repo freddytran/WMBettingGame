@@ -1,0 +1,40 @@
+.container-fluid{
+    
+    text-align: center;
+    
+    
+}
+
+
+
+h1{
+    font-family: Lobster;
+}
+
+
+.jumbotron jumbotron-fluid {
+    
+   
+    
+    
+}
+#komplett{
+    width: 100%;
+    height: 100%;
+    background-color: #00cc66;
+    
+
+}
+
+.btn-primary{
+    background-color: #008ae6;
+}
+
+
+#tabelle{
+    
+    width: 90%;
+    border: solid 3px red;
+    
+    
+}
