@@ -5,6 +5,8 @@ University Project
 
 Written in HTML/CSS/PHP
 
+To use this Website XAMPP is needed and the Database hase to be importet.
+
 Created MySQL Database with Teams of World Cup and der Matches
 Created Website for Users to place their Bets on the Matches
 Connected Website with Database to compare Bets with Matchresults.
